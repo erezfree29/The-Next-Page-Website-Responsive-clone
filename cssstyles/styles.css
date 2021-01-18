@@ -1,5 +1,16 @@
+nav {
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+.top_headlines {
+  margin-top: 25%;
+}
+
 .logo_mobile img {
   width: 45%;
+  height: 120%;
 }
 
 .nav_mobile {
