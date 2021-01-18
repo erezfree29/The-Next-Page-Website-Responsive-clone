@@ -1,0 +1,59 @@
+.logo_mobile img {
+  width: 45%;
+}
+
+.nav_mobile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_mobile {
+  display: flex;
+  align-items: center;
+}
+
+.right_mobile img {
+  padding: 20%;
+}
+
+.vl {
+  border-left: 0.1px solid gray;
+  height: 70%;
+}
+
+.vlleft {
+  padding-right: 5%;
+}
+
+.search_mobile {
+  padding-right: 5%;
+}
+
+.headline {
+  position: relative;
+}
+
+.headline img {
+  width: 100vw;
+  height: 28vh;
+}
+
+.text_on_picture {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.title {
+  color: white;
+  font-size: 17px;
+}
+
+.he_about {
+  color: white;
+  font-size: 25px;
+}
+
+.by {
+  color: gray;
+}
