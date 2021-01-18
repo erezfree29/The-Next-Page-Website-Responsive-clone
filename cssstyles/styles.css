@@ -2,6 +2,7 @@ nav {
   position: fixed;
   top: 0;
   background-color: white;
+  z-index: 1;
 }
 
 .top_headlines {
@@ -10,7 +11,7 @@ nav {
 
 .logo_mobile img {
   width: 45%;
-  height: 120%;
+  height: 140%;
 }
 
 .nav_mobile {
@@ -45,7 +46,7 @@ nav {
 }
 
 .headline img {
-  width: 100vw;
+  width: 100%;
   height: 28vh;
 }
 
@@ -84,72 +85,190 @@ nav {
 }
 
 .article img {
-  width: 40%;
+  width: 75%;
   height: 95%;
   padding-left: 5%;
   padding-right: 5%;
 }
-.footer-div1{
+
+.rounds_header {
+  font-size: 25px;
+  color: red;
+  padding-left: 5%;
+  margin-bottom: 8%;
+}
+
+.round_options {
+  padding-left: 8%;
+  color: red;
+}
+
+.company {
+  background-color: red;
+  margin-left: 9%;
+  width: 55%;
+  height: 10vh;
+  padding-left: 30%;
   display: flex;
-  flex-direction: column;
-  background-color: #14963f;
-  justify-content: center;
   align-items: center;
-  align-self: center;
-  margin-right: 20px;
-  padding: 30px;
-}
-
-.footer-icons {
-  display: flex;
-  flex-direction: row;
-}
-
-.social-icon {
   color: white;
+  margin-top: 3%;
+  position: relative;
+}
+
+.details {
+  background-color: #ffebe7;
+  margin-left: 9%;
+  width: 85%;
+  height: 13vh;
+  display: block;
+}
+
+.company img {
+  width: 20%;
+  position: absolute;
+  left: 9%;
+  top: 31%;
+
+}
+
+.amount {
+  padding-top: 5%;
+  padding-left: 25%;
+  font-weight: bold;
   font-size: 20px;
-  border: 1px solid grey;
-  border-radius: 50%;
-  margin-right: 1rem;
-  padding: 10px;
-  background-color: grey;
+  color: black;
 }
 
-.footer-links{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
+.amount a {
+  color: black;
 }
 
-.footer-link{
-  margin-right: 1rem;
-  color: white;
+.investor {
+  font-size: 12px;
+  padding-top: 2%;
+  padding-left: 25%;
+}
+
+.investor a {
+  color: gray;
+}
+
+.content a {
+  color: black;
+}
+
+.by a {
+  color: gray;
+}
+
+.more_funding_info {
+  margin-top: 7%;
+  padding-left: 12%;
+}
+
+.briefcase {
+  padding-top: 2%;
+}
+
+.info {
   font-size: 12px;
 }
 
-ul li {
-  list-style: none;
+.on {
+  color: gray;
 }
 
-a {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.555);
-  font-weight: 1200;
+.hidden {
+  display: none;
 }
 
-#footer-para {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(14, 13, 13);
-  margin-right: 20px;
+.round {
+  margin-top: 20%;
 }
 
-.footer-para, p {
-  color: rgba(255, 255, 255, 0.342);
-  font-weight: 100;
+.info a {
+  color: black;
 }
-strong {
+
+.piece {
+  position: relative;
+}
+
+.piece_text {
+  position: absolute;
+  left: 8%;
+  top: 24%;
+}
+
+.piece_header {
+  font-size: 25px;
+  color: red;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 1%;
+}
+
+.piece_about {
   color: white;
+  font-size: 25px;
+}
+
+.piece_title {
+  font-size: 17px;
+  color: white;
+}
+
+.piece_by {
+  color: gray;
+}
+
+.content {
+  color: black;
+}
+
+.piece img {
+  width: 100%;
+  height: 60vh;
+}
+
+.lower_box {
+  display: flex;
+  width: 100%;
+  background-color: #fff4f2;
+  color: red;
+}
+
+.lower_box img {
+  width: 42%;
+  height: 100%;
+}
+
+.latest_head {
+  font-size: 12px;
+}
+
+.latest_items {
+  padding-left: 8%;
+}
+
+.latest_about a {
+  color: red;
+}
+
+.piece_list {
+  list-style: none;
+  padding-right: 20%;
+}
+
+.piece_list li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.piece_list a {
+  color: black;
 }
