@@ -61,17 +61,17 @@ nav {
   font-size: 17px;
 }
 
-.he_about {
-  color: white;
-  font-size: 25px;
-}
-
 .news_head {
   color: red;
   font-size: 25px;
   padding-left: 5%;
   margin-top: 40%;
   margin-bottom: 8%;
+}
+
+.he_about {
+  color: white;
+  font-size: 25px;
 }
 
 .article {
