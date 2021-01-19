@@ -66,10 +66,6 @@ nav {
   font-size: 25px;
 }
 
-.by {
-  color: gray;
-}
-
 .news_head {
   color: red;
   font-size: 25px;
@@ -342,4 +338,8 @@ strong {
 .footer-links a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.555);
+}
+
+.by {
+  color: gray;
 }
