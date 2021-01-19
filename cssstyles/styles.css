@@ -170,3 +170,567 @@ ul li {
 a {
   text-decoration: none;
   color: rgba(24, 23, 23, 0.911);}
+=======
+nav {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.top_headlines {
+  margin-top: 25%;
+}
+
+.logo_mobile img {
+  width: 45%;
+  height: 140%;
+}
+
+.nav_mobile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_mobile {
+  display: flex;
+  align-items: center;
+}
+
+.right_mobile img {
+  padding: 20%;
+}
+
+.vl {
+  border-left: 0.1px solid gray;
+  height: 70%;
+}
+
+.vlleft {
+  padding-right: 5%;
+}
+
+.search_mobile {
+  padding-right: 5%;
+}
+
+.headline {
+  position: relative;
+}
+
+.headline img {
+  width: 100%;
+  height: 28vh;
+}
+
+.text_on_picture {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-weight: bo;
+}
+
+.title {
+  color: white;
+  font-size: 17px;
+}
+
+.news_head {
+  color: red;
+  font-size: 25px;
+  padding-left: 5%;
+  margin-top: 40%;
+  margin-bottom: 8%;
+}
+
+.article img {
+  width: 75%;
+  height: 95%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.rounds_header {
+  font-size: 25px;
+  color: red;
+  padding-left: 5%;
+  margin-bottom: 8%;
+}
+
+.round_options {
+  padding-left: 8%;
+  color: red;
+}
+
+.company {
+  background-color: red;
+  margin-left: 9%;
+  width: 55%;
+  height: 10vh;
+  padding-left: 30%;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: 3%;
+  position: relative;
+}
+
+.details {
+  background-color: #ffebe7;
+  margin-left: 9%;
+  width: 85%;
+  height: 13vh;
+  display: block;
+}
+
+.company img {
+  width: 20%;
+  position: absolute;
+  left: 9%;
+  top: 31%;
+}
+
+.amount {
+  padding-top: 5%;
+  padding-left: 25%;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+.amount a {
+  color: black;
+}
+
+.investor {
+  font-size: 12px;
+  padding-top: 2%;
+  padding-left: 25%;
+}
+
+.investor a {
+  color: gray;
+}
+
+.content a {
+  color: black;
+}
+
+.by a {
+  color: gray;
+}
+
+.more_funding_info {
+  margin-top: 7%;
+  padding-left: 12%;
+}
+
+.briefcase {
+  padding-top: 2%;
+}
+
+.info {
+  font-size: 12px;
+}
+
+.on {
+  color: gray;
+}
+
+.hidden {
+  display: none;
+}
+
+.round {
+  margin-top: 20%;
+}
+
+.info a {
+  color: black;
+}
+
+.piece {
+  position: relative;
+}
+
+.piece_text {
+  position: absolute;
+  left: 8%;
+  top: 24%;
+}
+
+.piece_header {
+  font-size: 25px;
+  color: red;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 1%;
+}
+
+.piece_about {
+  color: white;
+  font-size: 25px;
+}
+
+.piece_title {
+  font-size: 17px;
+  color: white;
+}
+
+.piece_by {
+  color: gray;
+}
+
+.content {
+  color: black;
+}
+
+.piece img {
+  width: 100%;
+  height: 60vh;
+}
+
+.lower_box {
+  display: flex;
+  width: 100%;
+  background-color: #fff4f2;
+  color: red;
+}
+
+.lower_box img {
+  width: 42%;
+  height: 100%;
+}
+
+.latest_head {
+  font-size: 12px;
+  width: 180px;
+}
+
+.latest_items {
+  padding-left: 2%;
+}
+
+.latest_about a {
+  color: red;
+}
+
+ul li {
+  list-style: none;
+}
+
+.piece_list {
+  list-style: none;
+  padding-right: 20%;
+  text-decoration: none;
+  padding-left: 4%;
+}
+
+.piece_list li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.piece_list a {
+  color: black;
+  text-decoration: none;
+}
+
+.piece_list li {
+  border-bottom: 1px solid  rgba(0, 0, 0, 0.178);
+  padding-bottom: 5px;
+}
+
+.footer-div {
+  background-color: rgba(27, 27, 27, 0.781);
+  margin-right: 2%;
+}
+
+.footer-icons {
+  text-align: center;
+  margin-top: 4%;
+  padding: 2% 0 2% 0;
+}
+
+.social-icon {
+  font-size: 20px;
+  color: white;
+  border: 1px solid grey;
+  padding: 1%;
+  border-radius: 50%;
+}
+
+.twitter,
+.youtube,
+.quora,
+.email,
+.camera,
+.wifi {
+  margin-left: 4%;
+}
+
+.footer-links {
+  text-align: center;
+  font-size: 60%;
+  padding-bottom: 4%;
+  padding-top: 2%;
+}
+
+.jobs,
+.contacts,
+.advert,
+.about,
+.event {
+  margin-left: 2%;
+}
+
+#footer-para {
+  text-align: center;
+  background-color: rgba(14, 13, 13, 0.61);
+  background-color: rgba(10, 8, 8, 0.925);
+  padding: 2%;
+  padding-top: 4%;
+  margin-right: 2%;
+}
+
+strong {
+  color: white;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.555);
+}
+
+.by {
+  color: gray;
+}
+
+.he_about {
+  color: white;
+  font-size: 25px;
+}
+
+.article {
+  display: flex;
+  width: 95%;
+  padding-bottom: 10%;
+}
+
+.nav_tablet {
+  display: none;
+}
+
+.article a {
+  text-decoration: none;
+}
+
+.bitcoin_image img {
+  width: 80%;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.latest_items a {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .nav_mobile {
+    display: none;
+  }
+
+  .nav_tablet {
+    display: block;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .nav_up {
+    background-color: black;
+    display: flex;
+    height: 3vh;
+    align-items: center;
+  }
+
+  .nav_up a {
+    color: #72909f;
+    text-decoration: none;
+  }
+
+  .links {
+    padding-left: 13%;
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .logo_tablet img {
+    position: absolute;
+    width: 12%;
+    height: 80%;
+  }
+
+  .nav_down {
+    height: 5vh;
+  }
+
+  .bottom_links {
+    padding-left: 14%;
+    display: flex;
+    align-items: center;
+  }
+
+  .latest,
+  .hard_fork,
+  .readme,
+  .plugged {
+    padding-right: 3%;
+  }
+
+  .growth {
+    padding-right: 12%;
+  }
+
+  .top_headlines {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 55% 45%;
+  }
+
+  .big_headline {
+    grid-row: 1 / 3;
+  }
+
+  .big_headline img {
+    height: 100%;
+    width: 98.5%;
+  }
+
+  .first_sub_new img {
+    padding-top: 1%;
+    width: 98.5%;
+  }
+
+  .second_sub_news img {
+    width: 98.5%;
+    padding-top: 6%;
+    height: 94%;
+  }
+
+  .text_on_picture {
+    top: 56%;
+  }
+
+  .he_about {
+    font-size: 20px;
+  }
+
+  .by {
+    font-size: 14px;
+  }
+
+  .first_text {
+    top: 190px;
+  }
+
+  .he_big {
+    font-size: 35px;
+  }
+
+  .by_big {
+    font-size: 20px;
+  }
+
+  .news_head {
+    margin-top: 20%;
+  }
+
+  .article {
+    display: block;
+  }
+
+  .articles {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .article img {
+    height: 60%;
+    width: 95%;
+  }
+
+  .rounds_header {
+    margin-bottom: 1%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .round {
+    margin-top: 4%;
+  }
+
+  .rounds {
+    display: flex;
+  }
+
+  .content,
+  .by {
+    padding-left: 4%;
+  }
+
+  .round_options {
+    padding-left: 5%;
+  }
+
+  .info {
+    font-size: 16px;
+  }
+
+  .pieces {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .piece img {
+    width: 95%;
+    height: 20vh;
+  }
+
+  .piece_text {
+    left: 4%;
+    top: 19%;
+  }
+
+  .latest_head {
+    font-size: 15px;
+    width: 180px;
+  }
+
+  .latest_about {
+    font-size: 20px;
+  }
+
+  .bitcoin_image img {
+    width: 81%;
+    height: 100%;
+  }
+
+  .latest_items {
+    padding-left: 2%;
+  }
+
+  .latest_items a {
+    text-decoration: none;
+  }
+
+  .piece_list {
+    padding-left: 4%;
+  }
+}
