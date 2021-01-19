@@ -69,17 +69,6 @@ nav {
   margin-bottom: 8%;
 }
 
-.he_about {
-  color: white;
-  font-size: 25px;
-}
-
-.article {
-  display: flex;
-  width: 95%;
-  padding-bottom: 10%;
-}
-
 .article img {
   width: 75%;
   height: 95%;
@@ -342,4 +331,15 @@ strong {
 
 .by {
   color: gray;
+}
+
+.he_about {
+  color: white;
+  font-size: 25px;
+}
+
+.article {
+  display: flex;
+  width: 95%;
+  padding-bottom: 10%;
 }
