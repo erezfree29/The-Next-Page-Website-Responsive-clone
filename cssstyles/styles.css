@@ -417,6 +417,10 @@ strong {
   color: red;
 }
 
+.nav_desktop {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .nav_mobile {
     display: none;
@@ -462,6 +466,11 @@ strong {
     padding-left: 14%;
     display: flex;
     align-items: center;
+  }
+
+  .bottom_links a {
+    text-decoration: none;
+    color: #979072;
   }
 
   .latest,
@@ -672,5 +681,71 @@ strong {
     background-color: black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+  }
+
+  .nav_links_left {
+    width: 30%;
+    padding-left: 2%;
+  }
+
+  .nav_links_left a {
+    color: #979072;
+    text-decoration: none;
+  }
+
+  .nav_links_right {
+    padding-right: 5%;
+    display: flex;
+  }
+
+  .nav_links_right a {
+    color: #979072;
+    text-decoration: none;
+  }
+
+  .news_link,
+  .events,
+  .business,
+  .amas,
+  .about,
+  .advertise,
+  .jobs {
+    padding-right: 5%;
+  }
+
+  .news_link a {
+    color: white;
+  }
+
+  .bottom_links_desk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+  }
+
+  .desk_links {
+    display: flex;
+    padding-left: 1.5%;
+    width: 60%;
+  }
+
+  .desk_links a {
+    text-decoration: none;
+    color: #979072;
+  }
+
+  .search_desktop {
+    padding-right: 5%;
+  }
+
+  .nav_desktop {
+    display: block;
+  }
+
+  .top_headlines {
+    margin-top: 1%;
   }
 }
