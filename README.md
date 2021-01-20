@@ -32,7 +32,7 @@ Built with
 
 Html
 Css
-Live Demo https://erezfree29.github.io/The-next-page-clone/
+Live Demo https://erezfree29.github.io/The-Next-Page-Website-Responsive-clone/
 
 Author Erez Friemagor
 
