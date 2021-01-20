@@ -663,4 +663,14 @@ strong {
   .deals {
     margin-left: 15%;
   }
+
+  .nav_tablet {
+    display: none;
+  }
+
+  .nav_desk_up {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+  }
 }
