@@ -444,6 +444,7 @@ strong {
 
   .nav_down {
     position: fixed;
+    top: 0;
     width: 100%;
     background-color: white;
     height: 5vh;
@@ -691,6 +692,11 @@ strong {
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
     margin-left: 9%;
+  }
+
+  .nav_down {
+    position: fixed;
+    top: 0;
   }
 
   .nav_desk_bottom {
