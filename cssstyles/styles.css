@@ -1,8 +1,9 @@
 nav {
   position: fixed;
   top: 0;
-  background-color: white;
+  width: 100%;
   z-index: 1;
+  background-color: white;
 }
 
 .nav_desk_bottom {
@@ -433,10 +434,6 @@ strong {
 }
 
 @media (min-width: 768px) {
-  nav {
-    position: relative;
-  }
-
   .options a {
     text-decoration: none;
     color: red;
