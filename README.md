@@ -8,8 +8,15 @@ I have clonded The Next  webpage using responsive design.
 
 Desktop view
 
+![Alt text](/assets/desktop.png?raw=true "Desktop View")
 
+Tablet view
 
+![Alt text](/assets/tablet.png?raw=true "Desktop View")
+
+mobile view
+
+![Alt text](/assets/mobile.png?raw=true "Desktop View")
 
 In This project I have:
 
