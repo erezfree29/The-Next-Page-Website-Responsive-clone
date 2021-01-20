@@ -688,11 +688,9 @@ strong {
 
 @media (min-width: 1024px) {
   .latest-deals {
-    display: fl;
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
-    padding: 10%;
-    margin-top: -11%;
+    margin-left: 9%;
   }
 
   .nav_desk_bottom {
@@ -716,6 +714,11 @@ strong {
 
   .deals {
     margin-left: 13%;
+  }
+
+  .see_all a {
+    margin-bottom: -3%;
+    color: red;
   }
 
   .nav_tablet {
@@ -748,6 +751,11 @@ strong {
   .nav_links_left a {
     color: #979072;
     text-decoration: none;
+  }
+
+  .deals_options a {
+    text-decoration: none;
+    color: red;
   }
 
   .nav_desk_bottom a:hover {
@@ -790,6 +798,7 @@ strong {
 
   .top_headlines {
     margin-top: 1%;
+    width: 98%;
   }
 
   .img-div {
@@ -893,5 +902,13 @@ strong {
 
   .footer {
     margin-top: -4%;
+    width: 100%;
+  }
+
+  .deals_options {
+    display: flex;
+    width: 82%;
+    justify-content: space-between;
+    align-items: center;
   }
 }
