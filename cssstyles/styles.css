@@ -5,6 +5,10 @@ nav {
   z-index: 1;
 }
 
+.nav_desk_bottom {
+  display: none;
+}
+
 .top_headlines {
   margin-top: 25%;
 }
@@ -429,16 +433,28 @@ strong {
 }
 
 @media (min-width: 768px) {
+  nav {
+    position: relative;
+  }
+
+  .options a {
+    text-decoration: none;
+    color: red;
+  }
+
+  .nav_down {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 5vh;
+  }
+
   .nav_mobile {
     display: none;
   }
 
   .nav_tablet {
     display: block;
-  }
-
-  nav {
-    width: 100%;
   }
 
   .nav_up {
@@ -460,17 +476,16 @@ strong {
   }
 
   .logo_tablet img {
-    position: absolute;
+    position: fixed;
+    top: 1;
+    z-index: 1;
     width: 12%;
-    height: 80%;
-  }
-
-  .nav_down {
-    height: 5vh;
+    height: 7%;
   }
 
   .bottom_links {
-    padding-left: 14%;
+    padding-left: 13%;
+    padding-top: 2%;
     display: flex;
     align-items: center;
   }
@@ -655,6 +670,7 @@ strong {
 
   .deals {
     margin-left: 5%;
+    margin-bottom: 1%;
   }
 
   .text-div {
@@ -664,15 +680,31 @@ strong {
   .from-to {
     font-size: 13px;
   }
+
+  .main_text {
+    top: 75%;
+  }
 }
 
 @media (min-width: 1024px) {
   .latest-deals {
     display: grid;
-    grid-template-columns: 17% 17% 17% 17%;
-    margin-left: 6%;
-    grid-gap: 2% 10%;
-    margin-top: 1.5%;
+    grid-template-columns: 24% 24% 24% 24%;
+    margin-left: 9%;
+  }
+
+  .nav_desk_bottom {
+    display: inline;
+    position: fixed;
+    width: 100%;
+    height: 7vh;
+    background-color: white;
+    z-index: 1;
+  }
+
+  .nav_links_right a {
+    color: #979072;
+    text-decoration: none;
   }
 
   .latest-deal-img {
@@ -681,7 +713,12 @@ strong {
   }
 
   .deals {
-    margin-left: 15%;
+    margin-left: 13%;
+  }
+
+  .see_all a {
+    margin-bottom: -3%;
+    color: red;
   }
 
   .nav_tablet {
@@ -696,9 +733,19 @@ strong {
     height: 5vh;
   }
 
-  .nav_links_left {
-    width: 30%;
-    padding-left: 2%;
+  .bottom_links_desk {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+  }
+
+  .desk_links a {
+    text-decoration: none;
+    color: #979072;
+  }
+
+  .news_link a {
+    color: white;
   }
 
   .nav_links_left a {
@@ -706,14 +753,23 @@ strong {
     text-decoration: none;
   }
 
+  .deals_options a {
+    text-decoration: none;
+    color: red;
+  }
+
+  .nav_desk_bottom a:hover {
+    color: #000;
+  }
+
+  .nav_links_left {
+    width: 50%;
+    padding-left: 2%;
+  }
+
   .nav_links_right {
     padding-right: 5%;
     display: flex;
-  }
-
-  .nav_links_right a {
-    color: #979072;
-    text-decoration: none;
   }
 
   .news_link,
@@ -726,26 +782,10 @@ strong {
     padding-right: 5%;
   }
 
-  .news_link a {
-    color: white;
-  }
-
-  .bottom_links_desk {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 7vh;
-  }
-
   .desk_links {
     display: flex;
     padding-left: 1.5%;
     width: 60%;
-  }
-
-  .desk_links a {
-    text-decoration: none;
-    color: #979072;
   }
 
   .search_desktop {
@@ -758,6 +798,7 @@ strong {
 
   .top_headlines {
     margin-top: 1%;
+    width: 98%;
   }
 
   .img-div {
@@ -768,5 +809,106 @@ strong {
     font-size: 12px;
     line-height: 20px;
     width: 250px;
+  }
+
+  .first_sub_new img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .second_sub_news img {
+    padding-top: 4%;
+    width: 100%;
+  }
+
+  .he_big {
+    font-size: 49px;
+  }
+
+  .first_text {
+    top: 80%;
+  }
+
+  .second_text {
+    top: 75%;
+  }
+
+  .articles {
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 80%;
+    padding: 10%;
+    margin-top: 1%;
+  }
+
+  .news_head {
+    margin-bottom: -10%;
+    margin-left: 6%;
+  }
+
+  .round_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -5%;
+  }
+
+  .options {
+    margin-right: 50%;
+    width: 33vw;
+    font-size: 20px;
+    margin-bottom: 2%;
+  }
+
+  .rounds_header {
+    width: 30%;
+    margin-left: 7%;
+  }
+
+  .hidden {
+    display: block;
+  }
+
+  .rounds {
+    margin-top: -14%;
+    padding: 10%;
+  }
+
+  .company img {
+    left: 8%;
+    top: 52%;
+  }
+
+  .pieces {
+    padding: 10%;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: -15%;
+  }
+
+  .piece img {
+    height: 30vh;
+  }
+
+  .latest_about {
+    font-size: 18px;
+  }
+
+  .bitcoin_image img {
+    height: 12vh;
+  }
+
+  .piece_list {
+    font-size: 17px;
+    color: silver;
+  }
+
+  .footer {
+    margin-top: -4%;
+    width: 100%;
+  }
+
+  .deals_options {
+    display: flex;
+    width: 82%;
+    justify-content: space-between;
+    align-items: center;
   }
 }
