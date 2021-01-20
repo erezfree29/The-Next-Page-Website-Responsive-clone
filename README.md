@@ -8,21 +8,15 @@ I have clonded The Next  webpage using responsive design.
 
 Desktop view
 
-![Alt text](/assets/The-next-page-desktop-view.png
-added screenshots
-?raw=true "Desktop View")
+![Alt text](/assets/The-next-page-desktop-view.png?raw=true "Desktop View")
 
 Tablet view
 
-![Alt text](/assets/The-next-page-tablet-view.png
-added screenshots
-?raw=true "Desktop View")
+![Alt text](/assets/The-next-page-tablet-view.png?raw=true "Desktop View")
 
 mobile view
 
-![Alt text](/assets/The-next-page-mobile-view.png
-added screenshots
-?raw=true "Desktop View")
+![Alt text](/assets/The-next-page-mobile-view.png?raw=true "Desktop View")
 
 In This project I have:
 
