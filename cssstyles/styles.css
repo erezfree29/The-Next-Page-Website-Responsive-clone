@@ -706,6 +706,10 @@ strong {
   .latest-deals img {
     width: 186px;
   }
+
+  .second_text {
+    top: 63%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -853,11 +857,11 @@ strong {
   }
 
   .first_text {
-    top: 80%;
+    top: 75%;
   }
 
   .second_text {
-    top: 75%;
+    top: 70%;
   }
 
   .articles {
