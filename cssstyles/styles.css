@@ -979,4 +979,9 @@ strong {
     font-size: 200px;
     color: white;
   }
+
+  .about,
+  .jobs {
+    padding-right: 5%;
+  }
 }
